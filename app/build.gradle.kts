@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "io.github.dovecoteescapee.byedpi"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 34
         versionCode = 10
         versionName = "1.2.0"
@@ -74,6 +74,7 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
     implementation("androidx.lifecycle:lifecycle-service:2.8.4")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
