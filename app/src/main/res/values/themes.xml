@@ -28,7 +28,7 @@
         <item name="cardElevation">2dp</item>
     </style>
 
-    <style name="PreferenceThemeOverlay.ByeDPI" parent="PreferenceThemeOverlay.Material3">
+    <style name="PreferenceThemeOverlay.ByeDPI" parent="@style/PreferenceThemeOverlay.v14.Material">
         <item name="android:layout">@layout/preference_material</item>
     </style>
 </resources>
